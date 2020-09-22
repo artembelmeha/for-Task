@@ -2,7 +2,6 @@ package task05;
 enum ClientType {
 
     NEW(1), SILVER(12) {
-
         @Override
         public double discount() {
             return (100 - SILVER.months*0.35)/100;

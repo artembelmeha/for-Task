@@ -19,6 +19,7 @@ public class NameList {
         public boolean hasNext() {
             return names.length >counter;
         }
+
         public String next() {
             String result = null;
             if (hasNext()) {
