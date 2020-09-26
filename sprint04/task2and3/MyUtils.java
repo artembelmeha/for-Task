@@ -1,4 +1,4 @@
-package task2;
+package task2and3;
 import java.util.*;
 
 public class MyUtils {
@@ -43,25 +43,6 @@ public class MyUtils {
     }
 
     public static void main(String[] args) {
-        List<Student> std1 = new ArrayList<>();
-          std1.add(new Student(1,"Ivan"));
-          std1.add(new Student(2,"Petro"));
-          std1.add(new Student(3,"Stepan"));
-          std1.add(new Student(3,"Stepan"));
-          std1.add(null);
-          std1.add(null);
-          std1.add(null);
 
-        List<Student> std2 = new ArrayList<>();
-         std2.add(new Student(1,"Ivan"));
-        std2.add(new Student(3,"Stepan"));
-        std2.add(new Student(3,"Stepan"));
-        std2.add(new Student(4,"Andriy"));
-        std2.add(null);
-        Set<Student> newSet = new MyUtils().commonStudents(std1,std2);
-        for (Student student: newSet) {
-
-            System.out.println(student.id + ": "+ student.name);
-        }
     }
 }
