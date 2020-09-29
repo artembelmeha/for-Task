@@ -12,7 +12,6 @@ class Operation{
         try {
             return squareRectangle(a,b);
         } catch (IllegalArgumentException e) {
-            System.out.println();
             return -1;
         }
 

@@ -4,12 +4,40 @@
   <component name="NewModuleRootManager" inherit-compiler-output="true">
     <exclude-output />
     <content url="file://$MODULE_DIR$">
-      <sourceFolder url="file://$MODULE_DIR$/sprint00" isTestSource="false" />
-      <sourceFolder url="file://$MODULE_DIR$/sprint01" isTestSource="false" />
-      <sourceFolder url="file://$MODULE_DIR$/sprint02" isTestSource="false" />
-      <sourceFolder url="file://$MODULE_DIR$/sprint03" isTestSource="false" />
-      <sourceFolder url="file://$MODULE_DIR$/sprint04" isTestSource="false" />
-      <sourceFolder url="file://$MODULE_DIR$/sprint05" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/sprint06/task1" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/sprint05/task1" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/sprint05/task2and3" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/sprint05/task4" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/sprint05/task5" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/sprint04/task1" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/sprint04/task2and3" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/sprint04/task3" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/sprint04/task4" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/sprint04/task5" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/sprint04/task6" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/sprint03/task01" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/sprint03/task02" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/sprint03/task03" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/sprint03/task04" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/sprint03/task05" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/sprint03/task06" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/sprint02/task01" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/sprint02/task02" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/sprint02/task03" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/sprint02/task04" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/sprint02/task05" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/sprint02/task06" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/sprint01/Task1" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/sprint01/Task2" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/sprint01/Task3" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/sprint01/Task4" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/sprint01/Task5" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/sprint01/Task6" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/sprint06/task2" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/sprint06/task3" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/sprint06/task4" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/sprint06/task5" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/sprint06/task6" isTestSource="false" />
     </content>
     <orderEntry type="inheritedJdk" />
     <orderEntry type="sourceFolder" forTests="false" />
