@@ -3,7 +3,7 @@ import java.util.function.BiFunction;
 import java.util.ArrayList;
 import java.util.List;
 
-public class MyUtils{
+public class MyUtils11{
     public static int findMaxByCondition(List<Integer> numbers, Predicate<Integer> pr) {
         int max = Integer.MIN_VALUE;
         for (Integer i:numbers) {
@@ -25,7 +25,7 @@ class User {
 
     int getMaxValueByCondition(Predicate<Integer> predicate) {
 
-        return getFilterdValue(MyUtils::findMaxByCondition,predicate);
+        return getFilterdValue(MyUtils11::findMaxByCondition,predicate);
 
     }
 }

@@ -38,6 +38,13 @@
       <sourceFolder url="file://$MODULE_DIR$/sprint06/task4" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/sprint06/task5" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/sprint06/task6" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/sprint07/task1" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/sprint07/task2" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/sprint07/task3" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/sprint07/task4" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/sprint07/task5" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/sprint07/task6" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/sprint07/task7" isTestSource="false" />
     </content>
     <orderEntry type="inheritedJdk" />
     <orderEntry type="sourceFolder" forTests="false" />
