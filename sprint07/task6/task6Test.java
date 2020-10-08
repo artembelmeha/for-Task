@@ -29,7 +29,8 @@ public class task6Test {
                  .map(s -> s.replaceAll("[^0-9]", ""))
                  .map(s -> s.length() == 10 ? s : (s.length() == 7 ? s = "loc" + s : "err" + s))
                  .distinct()
-                 .collect(Collectors.toMap(s -> s.substring(0, 3), s -> Stream.of(s.substring(3)), Stream::concat));
+                 .collect(Collectors.toMap(s -> s.substring(0, 3),
+                         s -> Stream.of(s.substring(3)), Stream::concat));
  }
 
 
