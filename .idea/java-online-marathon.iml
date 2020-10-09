@@ -48,6 +48,9 @@
       <sourceFolder url="file://$MODULE_DIR$/sprint08/task1" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/sprint08/task2" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/sprint08/task3" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/sprint09/task01" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/sprint09/task3" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/sprint09/task4" isTestSource="false" />
     </content>
     <orderEntry type="inheritedJdk" />
     <orderEntry type="sourceFolder" forTests="false" />

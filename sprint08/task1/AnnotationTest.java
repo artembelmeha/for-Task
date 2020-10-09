@@ -39,7 +39,7 @@ class CheckCamelCase {
 
     public static boolean checkAndPrint(Class clazz) {
         if(clazz == null) throw new NullPointerException("classType must not be null");
-        List<String>list = list = Arrays.stream(clazz.getMethods())
+        List<String>list  = Arrays.stream(clazz.getMethods())
                 .filter(s->s.isAnnotationPresent(CamelCase.class))
                 .filter(s->!s.getName().matches(CAMELCASE_PATTERN))
                 .map(s->"method "+clazz.getName()+"."+s.getName()+" doesn't satisfy camelCase naming convention")
