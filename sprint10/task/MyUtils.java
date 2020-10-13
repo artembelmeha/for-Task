@@ -13,13 +13,14 @@ public class MyUtils {
 
     public Connection createConnection() throws SQLException {
         DriverManager.registerDriver(new org.h2.Driver());
-        connection = DriverManager.getConnection("jdbc:h2:mem:test", "", "");
+        connection = DriverManager.getConnection("jdbc:h2:~/test", "sa", "");
         return connection;
     }
     public void closeConnection() throws SQLException {
         connection.close();
     }
     public Statement createStatement() throws SQLException {
+        statement = connection.createStatement();
         return connection.createStatement();
     }
     public void closeStatement() throws SQLException {
@@ -31,11 +32,12 @@ public class MyUtils {
         statement.executeUpdate(sql);
     }
     public void dropSchema() throws SQLException {
-        String sql = "DROP SCHEMA [IF EXISTS] "+schemaName;
+        String sql = "DROP SCHEMA IF EXISTS "+schemaName;
         statement.executeUpdate(sql);
     }
     public void useSchema() throws SQLException {
         String sql ="SET SCHEMA "+schemaName+";";
+     //   String sql ="ONLY USE "+schemaName+";";
         statement.executeUpdate(sql);
     }
     public void createTableRoles() throws SQLException {
@@ -167,16 +169,35 @@ public class MyUtils {
     }
     public List<String> getAllJavaDevelopers() throws SQLException {
         ArrayList<String> list =new ArrayList<>();
-        ResultSet rs =statement.executeQuery("SELECT firstName FROM Employee WHERE ( roleId='" +
-                getRoleId("Developer")+"'AND projectId=SELECT id FROM Projects WHERE directionId='" +
-                getDirectionId("Java")+"');");
+        ResultSet resSet = statement.executeQuery("SELECT id FROM Projects WHERE directionId='" +
+                getDirectionId("Java")+"'");
+        List<Integer> projectIdJava = new ArrayList<>();
+        while (resSet.next()) {
+            projectIdJava.add(resSet.getInt("id"));
+        }
+        for (int iProject:projectIdJava) {
+            resSet = statement.executeQuery("SELECT firstName FROM Employee WHERE ( roleId='" +
+                    getRoleId("Developer") + "'AND projectId='" + iProject + "');");
 
-        while (rs.next()) {
-            list.add(rs.getString("firstName"));
+            while (resSet.next()) {
+                list.add(resSet.getString("firstName"));
+            }
         }
         return list;
     }
 
+    public static void main(String[] args) throws SQLException {
+        MyUtils myUtils = new MyUtils();
+        myUtils.createConnection();
+        myUtils.createStatement();
+        myUtils.createSchema("Try");
+        myUtils.useSchema();
+        myUtils.createTableRoles();
+        myUtils.createTableDirections();
+        myUtils.createTableProjects();
+        myUtils.createTableEmployee();
+        System.out.println(myUtils.getAllJavaDevelopers());
+    }
 
 }
 
