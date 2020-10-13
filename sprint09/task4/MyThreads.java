@@ -28,7 +28,6 @@ class MyThreads {
     public static Thread t2 = new Thread() {
         public void run() {
             synchronized (den) {
-
                 for(int i = 0; i < 5; i++, m++)
                     System.out.println("Thread2 m = " + m);
                 Thread.yield();

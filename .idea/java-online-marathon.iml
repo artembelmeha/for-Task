@@ -51,8 +51,10 @@
       <sourceFolder url="file://$MODULE_DIR$/sprint09/task01" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/sprint09/task3" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/sprint09/task4" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/sprint10/task" isTestSource="false" />
     </content>
     <orderEntry type="inheritedJdk" />
     <orderEntry type="sourceFolder" forTests="false" />
+    <orderEntry type="library" name="h2-1.4.200" level="project" />
   </component>
 </module>
